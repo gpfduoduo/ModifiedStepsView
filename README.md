@@ -5,22 +5,23 @@
 具体的如下图所示：
 
 
-![image](https://github.com/gpfduoduo/ModifiedStepsView/tree/master/ModifiedStepsView/gif/device-2015-08-18-135551.png )
+![image](https://github.com/gpfduoduo/ModifiedStepsView/tree/master/ModifiedStepsView/gif/device-2015-08-18-135551.png "效果图")
 
 
-使用法：
-
+使用方法：
 
 activity的xml文件中添加：
 
+'''
 <com.example.lenovo.library.StepsView
         android:id="@+id/steps_view"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         app:numOfSteps="4"></com.example.lenovo.library.StepsView>
-
+'''
 
 在你的activity中调用
+'''
 stepsView = (StepsView) findViewById(R.id.steps_view);
 
         final String[] steps = {"step1", "step2", "step3", "step4"};
@@ -48,3 +49,4 @@ stepsView = (StepsView) findViewById(R.id.steps_view);
                 handler.sendMessage(msg);
             }
         }.start();
+'''
