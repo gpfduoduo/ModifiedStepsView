@@ -2,10 +2,10 @@
 改进的StepsView
 
 根据StepsView进行改进，添加了每一步进行的等待动画和每一步的执行结果动画
-具体的如下图所示：
+##具体的如下图所示：
 
 
-![image](https://github.com/gpfduoduo/ModifiedStepsView/tree/master/ModifiedStepsView/gif/device-2015-08-18-135551.png "效果图")
+![image](https://github.com/gpfduoduo/ModifiedStepsView/blob/master/ModifiedStepsView/gif/device-2015-08-18-135551.png "效果图")
 
 
 使用方法：
