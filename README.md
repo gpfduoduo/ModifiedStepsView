@@ -12,7 +12,7 @@
 
 activity的xml文件中添加：
 
- <com.example.lenovo.library.StepsView
+       <com.example.lenovo.library.StepsView
          android:id="@+id/steps_view"
          android:layout_height="wrap_content"
          android:layout_width="fill_parent"
