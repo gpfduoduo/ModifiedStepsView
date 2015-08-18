@@ -2,15 +2,15 @@
 改进的StepsView
 
 根据StepsView进行改进，添加了每一步进行的等待动画和每一步的执行结果动画
-##具体的如下图所示：
 
+##具体的如下图所示
 
 ![image](https://github.com/gpfduoduo/ModifiedStepsView/blob/master/ModifiedStepsView/gif/device-2015-08-18-135551.png "效果图")
 
 
-使用方法：
+##使用方法
 
-activity的xml文件中添加：
+###activity的xml文件中添加：
 
        <com.example.lenovo.library.StepsView
          android:id="@+id/steps_view"
@@ -18,7 +18,7 @@ activity的xml文件中添加：
          android:layout_width="fill_parent"
          app:numOfSteps="4"></com.example.lenovo.library.StepsView>
 
-在你的activity中调用
+###在你的activity中调用
 
 
          stepsView = (StepsView) findViewById(R.id.steps_view);
